@@ -1,0 +1,77 @@
+/* Style de base du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;  /* Couleur de fond légère pour la page */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Prendre toute la hauteur de l'écran */
+}
+
+/* Conteneur principal de l'interface utilisateur */
+#uber-ui {
+    background-color: #ffffff;  /* Fond blanc pour l'interface */
+    border-radius: 10px;  /* Coins arrondis */
+    padding: 20px;
+    width: 300px;  /* Largeur fixe de l'interface */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);  /* Ombre légère pour effet de profondeur */
+    text-align: center;
+}
+
+/* Titre principal */
+h1 {
+    color: #4CAF50;  /* Couleur verte pour un effet positif */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Conteneur pour les informations de la mission */
+#mission-info {
+    margin-bottom: 20px;  /* Espacement entre les sections */
+}
+
+/* Texte des informations de mission */
+#mission-info p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;  /* Espacement entre les lignes */
+}
+
+#mission-info span {
+    font-weight: bold;
+}
+
+/* Boutons d'action */
+button {
+    background-color: #4CAF50;  /* Couleur verte pour les boutons */
+    color: white;
+    padding: 12px 20px;  /* Espacement interne pour agrandir le bouton */
+    border: none;
+    border-radius: 5px;  /* Coins arrondis pour les boutons */
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;  /* Espacement entre les boutons */
+    transition: background-color 0.3s;  /* Animation pour le changement de couleur */
+}
+
+/* Effet au survol des boutons */
+button:hover {
+    background-color: #45a049;  /* Teinte plus foncée au survol */
+}
+
+/* Boutons désactivés */
+button:disabled {
+    background-color: #ccc;  /* Couleur grise pour les boutons inactifs */
+    cursor: not-allowed;  /* Curseur en forme de croix pour signaler que c'est désactivé */
+}
+
+/* Style pour les notifications ou messages d'erreur (facultatif) */
+#notification {
+    background-color: #f44336;  /* Rouge pour les messages d'erreur */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
